@@ -1,0 +1,23 @@
+// İşaretçi adres değerini tutar
+// İşaretçi tanımlarken veri tipinden sonra * karakteri kullanılır
+// int tipinde değişkenin değerini tutacaksa işaretçi değişkeninin tipi int* olacaktır.
+// Kısaca işaretçi değişkeninin tipi adresini tutmak istediğimiz değişkenin yani adresin tipiyle uyumlu olmalıdır.
+// adres operatörü & önüne geldiği değişkenin adresine ulaştırır bizi
+
+int sayi=10;
+int * p; //p adında işaretçi tanımlandı tipi int
+p=&sayi; //sayi değişkeninin adresini görevi adres tutmak olan p işaretçisine yani adres tutan değişkene kopyala
+
+/* 
+
+p=?
+*p=?
+&p=?
+&sayi=?
+sizce bunların sonucu nedir?
+p sayi değişkeninin adresidir
+*p işaret ettiği adresin değerine erişimimiz sağlar yani değeri 10
+&p işaretçinin bulunduğu adresi bize verir
+&sayi sayi değişkeninin bulunduğu adresi bize verir
+
+*/
